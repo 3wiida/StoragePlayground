@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_bar_nan_graph"
+    app:startDestination="@id/imagesFragment">
+
+    <fragment
+        android:id="@+id/imagesFragment"
+        android:name="com.mahmoudibrahem.storageplayground.ui.image.ImagesFragment"
+        android:label="ImagesFragment" />
+    <fragment
+        android:id="@+id/audiosFragment"
+        android:name="com.mahmoudibrahem.storageplayground.ui.audio.AudiosFragment"
+        android:label="AudiosFragment" />
+    <fragment
+        android:id="@+id/videosFragment"
+        android:name="com.mahmoudibrahem.storageplayground.ui.video.VideosFragment"
+        android:label="VideosFragment" />
+    <fragment
+        android:id="@+id/documentsFragment"
+        android:name="com.mahmoudibrahem.storageplayground.ui.document.DocumentsFragment"
+        android:label="DocumentsFragment" />
+</navigation>

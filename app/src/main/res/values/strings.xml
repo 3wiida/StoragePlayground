@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Storage Playground</string>
+    <string name="rational_message">App can\'t run without this permission, because the main function of the app depends on this permission</string>
+    <string name="rational_title">Permission Required</string>
+    <string name="settings_dialog_message"><![CDATA[Go to settings -> permissions -> allow the required permissions for the app]]></string>
+    <string name="settings_dialog_title">Grant Permission Manually</string>
+    <string name="storage_playground">Storage Playground</string>
+    <string name="images">Images</string>
+    <string name="videos">Videos</string>
+    <string name="audio">Audio</string>
+    <string name="documents">Documents</string>
+    <string name="files_access_denied">Files Access Denied</string>
+    <string name="can_t_access_your_files_please_grant_required_permissions">Can\'t access your files, please grant required permissions</string>
+    <string name="grant_permissions">Grant Permissions</string>
+</resources>

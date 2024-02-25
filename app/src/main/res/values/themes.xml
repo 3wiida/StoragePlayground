@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StoragePlayground" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/main</item>
+        <item name="colorAccent">@android:color/transparent</item>
+        <item name="colorPrimaryVariant">@android:color/transparent</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorSurface">#d1e4ff</item>
+        <item name="colorSecondaryContainer">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.StoragePlayground" parent="Base.Theme.StoragePlayground" />
+</resources>
